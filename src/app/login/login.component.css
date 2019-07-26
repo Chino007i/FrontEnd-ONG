@@ -1,0 +1,14 @@
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.b
+{
+text-align:Center;
+background-color: gray;
+margin: -12px;
+padding: 50px;
+}
+ 

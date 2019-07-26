@@ -1,0 +1,19 @@
+
+
+
+    <h1 class="b">Bienvenidos.</h1>    
+
+<form class="f1">
+    <div class="form-group">
+        <label for="ejemplo@alguien.com">User</label>
+        <input type="email" [(ngModel)]="username" [ngModelOptions]="{standalone:true}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Ingrese el Usuario">
+        <small id="emailHelp" class="form-text text-muted"></small>
+        <label for="Ingrese Su Contrasena">Password</label>
+        <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone:true}" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <br>
+        <button class="btnLog" type="submit" (click)="validar()" class="btn btn-primary col-15" >Ingresar</button>
+    </div>
+</form>
+
+
